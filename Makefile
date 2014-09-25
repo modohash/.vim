@@ -1,0 +1,2 @@
+init:
+	cp .vimrc ../.vimrc
