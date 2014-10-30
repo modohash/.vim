@@ -135,4 +135,7 @@ nnoremap <C-c> :bp\|bd #<CR>
 
 " Shortcut for indentation while inside visual mode
 vnoremap < <gv
-vnoremap > >gv 
+vnoremap > >gv
+
+" Ctrlp ingore pyc
+set wildignore+=*.pyc

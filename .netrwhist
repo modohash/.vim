@@ -1,11 +1,5 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =9
-let g:netrw_dirhist_1='/Users/Chris/Documents/Development/Sandbox/Django/blog_sample/netmag/blog'
-let g:netrw_dirhist_2='/Users/Chris/Documents/Development/SixDegreeLabs/Repositories/GIT-Saltim/webrtc-jingle-client/saltim-ios'
-let g:netrw_dirhist_3='/Users/Chris/Documents/Development/SixDegreeLabs/Repositories/GIT-Experior-Audit/client/app/scripts'
-let g:netrw_dirhist_4='/Users/Chris/Documents/Development/SixDegreeLabs/Repositories/GIT-Experior-Audit/client/app'
-let g:netrw_dirhist_5='/Users/Chris/Documents/Development/byteme-games/bmg-sidescrollingplatformer/SideScroller/cocos2d/cocos/2d'
-let g:netrw_dirhist_6='/Users/Chris/Documents/Development/SixDegreeLabs/Repositories/audit-client/app/scripts/services'
-let g:netrw_dirhist_7='/Users/Chris/Documents/Development/SixDegreeLabs/Repositories/diageolight/lightbox'
-let g:netrw_dirhist_8='/Users/Chris/Documents/Development/SixDegreeLabs/keys/certs-crypt-auditcomply/SSL'
-let g:netrw_dirhist_9='/Users/Chris/Documents/Development/SixDegreeLabs/Repositories/audit-client'
+let g:netrw_dirhist_cnt =3
+let g:netrw_dirhist_1='/Users/chris/Development/salt/client-solovpn/android/.settings'
+let g:netrw_dirhist_2='/Users/chris/Development/auditcomply/audit-client/app/views/modals'
+let g:netrw_dirhist_3='/Users/chris/Library/Application Support/Sublime Text 3/Packages'
