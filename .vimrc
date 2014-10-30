@@ -1,3 +1,6 @@
+" This must be first, because it changes other options as side effect
+set nocompatible
+
 " Enable pathogen
 execute pathogen#infect()
 
@@ -5,7 +8,7 @@ execute pathogen#infect()
 syntax on
 
 " Set color scheme
-colorscheme elflord 
+colorscheme Monokai 
 
 " Set print margin
 set colorcolumn=81
@@ -47,6 +50,7 @@ set showcmd
 " Highlight searches (use <C-L> to temporarily turn off highlighting; see the
 " mapping of <C-L> below)
 set hlsearch
+set incsearch
 
 " Modelines have historically been a source of security vulnerabilities. As
 " such, it may be a good idea to disable them and use the securemodelines
@@ -72,6 +76,7 @@ set backspace=indent,eol,start
 " When opening a new line and no filetype-specific indenting is enabled, keep
 " the same indent as the line you're currently on. Useful for READMEs, etc.
 set autoindent
+set copyindent
 
 " Stop certain movements from always going to the first character of a line.
 " While this behaviour deviates from that of Vi, it does what most users
@@ -110,8 +115,8 @@ set number
 " Quickly time out on keycodes, but never time out on mappings
 set notimeout ttimeout ttimeoutlen=200
 
-" Use <F11> to toggle between 'paste' and 'nopaste'
-set pastetoggle=<F11>
+" Use <F2> to toggle between 'paste' and 'nopaste'
+set pastetoggle=<F2>
 
 
 "------------------------------------------------------------
@@ -139,3 +144,16 @@ vnoremap > >gv
 
 " Ctrlp ingore pyc
 set wildignore+=*.pyc
+
+" Stuff from http://nvie.com/posts/how-i-boosted-my-vim/
+set nowrap        " don't wrap lines
+set showmatch
+nnoremap ; :
+map <up> <nop>
+map <down> <nop>
+map <left> <nop>
+map <right> <nop>
+cmap w!! w !sudo tee % >/dev/null
+
+let python_highlight_all = 1
+
