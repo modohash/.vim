@@ -1,5 +1,24 @@
 " This must be first, because it changes other options as side effect
 set nocompatible
+filetype off
+
+set rtp+=~/.vim/bundle/vundle/
+call vundle#rc()
+
+" let Vundle manage Vundle
+" required! 
+Bundle 'gmarik/vundle'
+Bundle 'Lokaltog/powerline', {'rtp': 'powerline/bindings/vim/'}
+
+" Powerline setup
+"set guifont=DejaVu\ Sans\ Mono\ for\ Powerline\ 9
+set guifont=Meslo\ for\ Powerline
+let g:Powerline_symbols = 'fancy'
+set laststatus=2
+
+" The bundles you install will be listed here
+
+filetype plugin indent on
 
 " Enable pathogen
 execute pathogen#infect()

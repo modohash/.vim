@@ -4,4 +4,5 @@ init:
 	git clone https://github.com/jelera/vim-javascript-syntax.git bundle/vim-javascript-syntax
 	git submodule add git@github.com:flazz/vim-colorschemes.git bundle/colorschemes
 	git clone https://github.com/rking/ag.vim bundle/ag
+	git clone https://github.com/gmarik/vundle.git bundle/vundle
 	ln -s $PWD/.vimrc ~/.vimrc
