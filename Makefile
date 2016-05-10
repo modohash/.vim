@@ -7,4 +7,8 @@ init:
 	git clone https://github.com/flazz/vim-colorschemes.git bundle/colorschemes
 	git clone https://github.com/rking/ag.vim bundle/ag
 	git clone https://github.com/gmarik/vundle.git bundle/vundle
+	git clone https://github.com/leafgarland/typescript-vim.git bundle/typescript-vim
+	git clone https://github.com/octol/vim-cpp-enhanced-highlight.git bundle/syntax/
+	git clone --depth=1 https://github.com/rust-lang/rust.vim.git bundle/rust.vim
+	touch ~/.vimrc
 	ln -s ~/.vim/.vimrc ~/.vimrc
