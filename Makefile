@@ -1,5 +1,6 @@
 init:
-	rm ~/.vimrc
+	touch ~/.vimrc
+	mv ~/.vimrc ~/.vimrc.bak
 	rm -rf bundle/
 	git clone https://github.com/kien/ctrlp.vim.git bundle/ctrlp.vim
 	git clone https://github.com/scrooloose/nerdtree.git bundle/nerdtree
@@ -10,5 +11,5 @@ init:
 	git clone https://github.com/leafgarland/typescript-vim.git bundle/typescript-vim
 	git clone https://github.com/octol/vim-cpp-enhanced-highlight.git bundle/syntax/
 	git clone --depth=1 https://github.com/rust-lang/rust.vim.git bundle/rust.vim
-	touch ~/.vimrc
+	git clone https://github.com/fatih/vim-go.git bundle/vim-go
 	ln -s ~/.vim/.vimrc ~/.vimrc
