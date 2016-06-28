@@ -217,3 +217,6 @@ let g:pymode_syntax_space_errors = g:pymode_syntax_all
 
 " Don't autofold code
 let g:pymode_folding = 0
+
+" Use go imports
+let g:go_fmt_command = "goimports"
