@@ -35,7 +35,7 @@ set colorcolumn=81
 highlight ColorColumn ctermbg=darkgrey
 
 " Enable 256 colors
-set t_Co=256
+"set t_Co=256
 
 " Disable swap files
 set noswapfile
