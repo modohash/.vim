@@ -1,4 +1,5 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =2
+let g:netrw_dirhist_cnt =3
 let g:netrw_dirhist_1='/Users/chris/Development/auditcomply/audit-portal/exaudit/south_migrations'
 let g:netrw_dirhist_2='/Users/chris/Development/salt/saltim/gradle'
+let g:netrw_dirhist_3='/Users/christophermccabe/Development/neurovalens/modius-portal/modius_portal/users/tests'

@@ -12,5 +12,7 @@ init:
 	git clone https://github.com/octol/vim-cpp-enhanced-highlight.git bundle/syntax/
 	git clone --depth=1 https://github.com/rust-lang/rust.vim.git bundle/rust.vim
 	git clone https://github.com/fatih/vim-go.git bundle/vim-go
-	git clone git@github.com:Shougo/neocomplete.vim.git bundle/neocomplete
+	git clone https://github.com/Shougo/neocomplete.vim.git bundle/neocomplete
+	git clone https://github.com/felixhummel/setcolors.vim.git bundle/setcolors
+	curl https://raw.githubusercontent.com/ayu-theme/ayu-vim/master/colors/ayu.vim --output bundle/colorschemes/colors/ayu.vim
 	ln -s ~/.vim/.vimrc ~/.vimrc

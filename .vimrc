@@ -15,7 +15,6 @@ Bundle 'klen/python-mode'
 "set guifont=DejaVu\ Sans\ Mono\ for\ Powerline\ 9
 set guifont=Meslo\ for\ Powerline
 let g:Powerline_symbols = 'fancy'
-set laststatus=2
 
 " The bundles you install will be listed here
 
@@ -28,7 +27,9 @@ execute pathogen#infect()
 syntax on
 
 " Set color scheme
-colorscheme Monokai
+set termguicolors
+let ayucolor="dark"
+colorscheme ayu
 
 " Set print margin
 set colorcolumn=81
@@ -294,3 +295,4 @@ endif
 " For perlomni.vim setting.
 " https://github.com/c9s/perlomni.vim
 let g:neocomplete#sources#omni#input_patterns.perl = '\h\w*->\h\w*\|\h\w*::'
+
