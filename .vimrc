@@ -4,10 +4,11 @@ filetype off
 
 " Powerline setup
 "set guifont=DejaVu\ Sans\ Mono\ for\ Powerline\ 9
-set guifont=Monaco\ for\ Powerline
+set guifont=Meslo\ for\ Powerline
 let g:Powerline_symbols = 'fancy'
 let g:airline_powerline_fonts = 1
 let g:airline_theme='molokai'
+set encoding=UTF-8
 
 " The bundles you install will be listed here
 
@@ -174,6 +175,9 @@ cmap w!! w !sudo tee % >/dev/null
 let g:pymode = 1
 let g:pymode_syntax_all = 1
 let g:pymode_folding = 0
+let g:pymode_rope = 0
+let g:pymode_doc = 0
+let g:pymode_lint = 0
 
 " Use go imports
 "let g:go_fmt_command = "goimports"

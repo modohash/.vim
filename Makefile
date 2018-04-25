@@ -2,7 +2,7 @@ init:
 	touch ~/.vimrc
 	mv ~/.vimrc ~/.vimrc.bak
 	rm -rf bundle/
-	git clone https://github.com/kien/ctrlp.vim.git bundle/ctrlp.vim
+	git clone https://github.com/ctrlpvim/ctrlp.vim.git bundle/ctrlp.vim
 	git clone https://github.com/scrooloose/nerdtree.git bundle/nerdtree
 	git clone https://github.com/jelera/vim-javascript-syntax.git bundle/vim-javascript-syntax
 	git clone https://github.com/flazz/vim-colorschemes.git bundle/colorschemes
@@ -16,6 +16,9 @@ init:
 	git clone --recursive https://github.com/python-mode/python-mode.git bundle/python-mode
 	git clone https://github.com/vim-airline/vim-airline bundle/airline
 	git clone https://github.com/vim-airline/vim-airline-themes.git bundle/airline-themes
+	git clone https://github.com/ryanoasis/vim-devicons.git bundle/devicons
+	git clone git://github.com/airblade/vim-gitgutter.git bundle/gitgutter
+	git clone https://github.com/Xuyuanp/nerdtree-git-plugin.git bundle/nerdtree-git-plugin
 	curl https://raw.githubusercontent.com/ayu-theme/ayu-vim/master/colors/ayu.vim --output bundle/colorschemes/colors/ayu.vim
 	echo 'syn match pythonFunction "\zs\(\k\w*\)*\s*\ze("' >> bundle/python-mode/syntax/python.vim
 	ln -s ~/.vim/.vimrc ~/.vimrc
