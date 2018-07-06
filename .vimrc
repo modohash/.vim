@@ -29,6 +29,7 @@ colorscheme ayu
 " Set print margin
 set colorcolumn=81
 highlight ColorColumn ctermbg=darkgrey
+set cursorline
 
 " Enable 256 colors
 "set t_Co=256

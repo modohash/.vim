@@ -19,6 +19,7 @@ init:
 	git clone https://github.com/ryanoasis/vim-devicons.git bundle/devicons
 	git clone git://github.com/airblade/vim-gitgutter.git bundle/gitgutter
 	git clone https://github.com/Xuyuanp/nerdtree-git-plugin.git bundle/nerdtree-git-plugin
+	git clone https://github.com/keith/swift.vim.git bundle/swift
 	curl https://raw.githubusercontent.com/ayu-theme/ayu-vim/master/colors/ayu.vim --output bundle/colorschemes/colors/ayu.vim
 	echo 'syn match pythonFunction "\zs\(\k\w*\)*\s*\ze("' >> bundle/python-mode/syntax/python.vim
 	ln -s ~/.vim/.vimrc ~/.vimrc
