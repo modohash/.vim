@@ -24,8 +24,7 @@ syntax on
 
 " Set color scheme
 set termguicolors
-let ayucolor="mirage"
-colorscheme ayu
+colorscheme molokai
 
 " Set print margin
 set colorcolumn=81
