@@ -173,6 +173,7 @@ map <right> <nop>
 cmap w!! w !sudo tee % >/dev/null
 
 "let python_highlight_all = 1
+let g:python3_host_prog = '/Users/chris/.pyenv/shims/python3'
 let g:pymode = 1
 let g:pymode_syntax_all = 1
 let g:pymode_folding = 0
